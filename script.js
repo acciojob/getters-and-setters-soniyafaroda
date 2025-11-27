@@ -12,6 +12,11 @@ class Person {
     return this._name;
   }
 
+  // Setter for name
+  set name(newName) {
+    this._name = newName;
+  }
+
   // Getter for age
   get age() {
     return this._age;
